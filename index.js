@@ -18,6 +18,8 @@ function destructivelyRemoveFirstDriver() {
   drivers.shift();
 }
 
+const drivers = ["Milo", "Otis", "Garfield"]
+
 function appendDriver(Broom) {
   drivers.splice(2, 0, "Broom");
 }
