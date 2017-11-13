@@ -19,7 +19,7 @@ function destructivelyRemoveFirstDriver() {
 }
 
 function appendDriver(Broom) {
-  return drivers.splice(2, 0, 'Broom');
+  return drivers.splice(3, 0, 'Broom');
 }
 
 function prependDriver(Arnold) {
