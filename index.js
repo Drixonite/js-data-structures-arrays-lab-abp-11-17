@@ -19,12 +19,12 @@ function destructivelyRemoveFirstDriver() {
 }
 
 
-function appendDriver(name) {
-  drivers.splice(2, 0, "Broom");
+function appendDriver(Broom) {
+  drivers.splice(2, 0, Broom);
 }
 
-function prependDriver(name) {
-  drivers.splice(0, 0, "Arnold");
+function prependDriver(Arnold) {
+  drivers.splice(0, 0, Arnold);
 }
 
 function removeLastDriver() {
